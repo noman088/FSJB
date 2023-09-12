@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML and CSS</title>
+    <style>
+        /* selector , pseduo element, margin padding, border background ,text height and width */
+        /* Child selector */
+
+        /* div p {color: red;} */
+
+        /* div>p {
+            color: red;
+        } */
+
+        /* following two are perform same operation|| */
+
+        /* div,
+        p {
+            color: red;
+        } */
+
+
+        /* Sibling Selector */
+        /* div+p {
+            color: #0000ff;
+        } */
+
+        /* it doesn't work until it gets siblings */
+        /* div~p {
+            color: blue;
+        } */
+
+        /* Class and id inside css max time (99.99%) */
+
+        /*<=======Pseduo Selector ==========>*/
+        /* .warning::before {
+            content: "Danger";
+            color: red;
+            font-size: 16px;
+
+        }
+
+        .quote::after {
+            content: "--JavaScript";
+            color: #680ede;
+            font-size: 24px;
+        } */
+
+
+        /* :Hover :focuus */
+        /* a:hover{
+            color: #ffff;
+            background-color: #0ebd4b;
+        }
+        p:hover{
+            background-color: violet;
+        } */
+
+
+        /* input:focus{
+            color: black;
+            background-color: violet;
+        } */
+        
+        /* just for first input */
+        input[type=text]:focus{
+            color: white;
+            background-color: black;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p> -->
+    <!-- <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
+ -->
+
+
+    <!-- <div class="warning">
+        <p>Please use the website carefully</p>
+
+    </div>
+    <div class="quote">
+        <p>Easiest language to learn and Hardest language to master</p>
+    </div> -->
+
+    <!-- <a href="https://www.google.com/">Google+Bacho</a>
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p> -->
+    Name: <input type="text">
+    Mail: <input type="email">
+
+</body>
+
+
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>basic css</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* p {
+            color: #8fc628;
+            background-color: #d6e813;
+        } */
+
+        /* 1.  Universal Selector */
+        /* * {
+            background-color: #4d4d4d;
+            color: #fff;
+        } */
+
+
+
+        /*2.  Individual selector */
+        /* p{
+            background-color: #d1ea76;
+        } */
+
+
+
+        /*3. class and id selector */
+        /* .warning{
+            background-color: #ef9323;
+            color: #fff;
+        }
+         
+        #danger{
+            background-color:#e93916 ;
+            color: #fff;
+
+        } */
+
+
+        /* 4.  and selector (chained) */
+        /* li.bg-black.text-white {
+            background-color: #000;
+            color: #ef9323;
+        } */
+
+        /* li.bg-black#text-white {
+            background-color: #000;
+            color: #ef9323;
+        } */
+
+
+
+        /* 5.COmbined selector */
+        /* span,
+        li,
+        p {
+            background-color: burlywood;
+
+        } */
+
+        /* 6. inside element */
+        /* div ul li{
+            background-color:  blue ;
+        } */
+
+        /* 7.Direct child */
+        /* > means direct child */
+        /* div>li {
+            background-color: #7667e4;
+        } */
+
+        /* Sibling  ~ or + */
+        /* .sibling  + p {
+            background-color: pink;
+        } */
+
+
+
+       
+
+        
+    </style>
+</head>
+
+<body>
+    <div>Welcome to live class</div>
+    <span>Span is just a span, nothing more</span>
+    <p>We all know Paragraph</p>
+    <ul>
+        <li> Item1 </li>
+        <li>item2</li>
+        <li>item3</li>
+        <li>item4</li>
+        <li>item5</li>
+    </ul>
+    <div>
+        <p>lorem </p>
+        <li>awesome</li>
+        <ul>
+            <li>highlight me </li>
+            <li>highlight me </li>
+        </ul>
+    </div>
+
+    <section>
+        <p class="sibling">Test1</p>
+        <p>Test2</p>
+        <p>Test3</p>
+        <p class="sibling">Test4</p>
+        <p>Test5</p>
+    </section>
+</body>
+
+</html>
