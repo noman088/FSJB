@@ -105,4 +105,15 @@ console.log(`My Current first Name is ${firstname}  ${lastname} ${mobileno}`);
 
 */
 
+//  basic interview qeustion
+// let y;
+// y = 10;
+// console.log(y);
+
+// // const accno; this will give error because we have to assign value at the initializaton in const variable
+// // accno='8898384' // we cannot assign value in const 
+// // like this
+// const accno = '2343435';
+// // accno = '539570834';
+
 
