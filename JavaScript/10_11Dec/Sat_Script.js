@@ -70,9 +70,6 @@ console.log(`My Current first Name is ${firstname}  ${lastname} ${mobileno}`);
 
 */
 
-
-
-
 /*
 
 // < ----- Operator---------->
@@ -111,9 +108,32 @@ console.log(`My Current first Name is ${firstname}  ${lastname} ${mobileno}`);
 // console.log(y);
 
 // // const accno; this will give error because we have to assign value at the initializaton in const variable
-// // accno='8898384' 
+// // accno='8898384'
 // // like this
 // const accno = '2343435';
-// // accno = '539570834';//we cannot assign value in const 
+// // accno = '539570834';//we cannot assign value in const
 
+// <----    Conditions ----->
 
+// let age = "16";
+// if (age == "18") {
+//   console.log("allowed in park");
+// } else {
+//   console.log("out of the park");
+// }
+
+// let gender = "female";
+// if (gender == "female") {
+//   console.log("yes , you are allowed");
+// } else {
+//   console.log("you are not allowed");
+// }
+
+// let standard = 1;
+// if (standard == 1) {
+//   console.log("room 1");
+// } else if (standard == 2) {
+//   console.log("room2");
+// } else {
+//   console.log("you are principle");
+// }
