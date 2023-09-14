@@ -111,9 +111,9 @@ console.log(`My Current first Name is ${firstname}  ${lastname} ${mobileno}`);
 // console.log(y);
 
 // // const accno; this will give error because we have to assign value at the initializaton in const variable
-// // accno='8898384' // we cannot assign value in const 
+// // accno='8898384' 
 // // like this
 // const accno = '2343435';
-// // accno = '539570834';
+// // accno = '539570834';//we cannot assign value in const 
 
 
