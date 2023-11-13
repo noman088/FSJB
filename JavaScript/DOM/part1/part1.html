@@ -10,7 +10,9 @@
 <body>
     <h1>Hello World </h1>
 
-    <p class="fsjs" id="fsjs2"> <span>Lorem</span>, ipsum dolor.</p>
+    <!-- <p class="fsjs" id="fsjs2"> <span>Lorem</span>, ipsum dolor.</p> -->
+    <p class="fsjs">Full Stack JavaScript - Class</p>
+    <p id="fsjs2">Full Stack JavaScript - ID</p>
 
     <ul>
         <li>One </li>
@@ -32,17 +34,30 @@
         // console.log(document.body.firstElementChild);
         // let val=document.getElementById("fsjs2")
         // console.log(val.innerHTML);
-        // console.log(val.innerText);fgf
+        // console.log(val.innerText);
+
         let val = document.getElementsByClassName("tech")
         console.log(val);
         console.log(val[0].innerText);
         console.log(val[1].innerText);
-        val[1].innerHTML = "Noman";
-        val[2].innerHTMl = <h1>Hello Hitesh sir</h1>
+        val[1].innerHTML = "Noman"
+        //    val[2].innerHTML="<h1> Hello Hitesh Sir</h1>"
+        val[2].innerText = "<h1> Hello Hitesh Sir</h1>"
+        //    <<---HomeWork---->>
+        //    3. by tag name 
+        //    4. by tag 
+        //    * Qeury Selector
 
+        // <------------------------->
 
+        // let h1 = document.querySelector(".fsjs").innerText
+        let h1=document.querySelector("#fsjs2").innerText
+        console.log(h1);
+
+    //    skip // let value=document.querySelector("p").style.backgroundColor="red"
 
     </script>
+
 </body>
 
 
