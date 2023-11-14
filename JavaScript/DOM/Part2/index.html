@@ -16,6 +16,8 @@
 
     </ul>
 
+    <button id="fsjs2"> Submit </button>
+
     <script>
         // insert inner HTML
         const list = ` 
@@ -29,6 +31,31 @@
 
         const ul = document.querySelector("ul")
         ul.innerHTML = list;
+
+        // Create Element on Screeen 
+        let title = document.createElement("h1")
+        title.className = "title";
+        title.style.fontSize = "25px";
+        title.style.color = "green";
+        title.textContent = "Creating New Element in DOM Day 2";
+        console.log(title);
+        document.body.appendChild(title)
+
+        //   <---  HomeWork ---->
+        //     Remove Child==>Assignment
+
+
+        // for loop 
+        for (let i = 0; i < 3; i++) {
+            let pra = document.createElement("p")
+            pra.classname = "FSJS"
+            pra.style.fontsize = "16px"
+            console.log(pra);
+            pra.textContent = i;
+            document.body.appendChild(pra);
+
+        }
+
 
 
     </script>
