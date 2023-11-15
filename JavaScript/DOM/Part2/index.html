@@ -16,7 +16,8 @@
 
     </ul>
 
-    <button id="fsjs2"> Submit </button>
+    <button onclick="maths()" id="fsjs2"> Submit </button>
+    <p id="js"></p>
 
     <script>
         // insert inner HTML
@@ -54,6 +55,19 @@
             pra.textContent = i;
             document.body.appendChild(pra);
 
+        }
+
+        function maths(){
+            let value=prompt("Solve this 50-30");
+            if(value==20){
+                document.getElementById("js").innerText="Seccess Redirect";
+                document.getElementById("fsjs2").style.backgroundColor="green";
+            }
+            else{
+                document.getElementById("js").innerText="Failed Try again";
+                document.getElementById("fsjs2").style.backgroundColor="Red";
+
+            }
         }
 
 
