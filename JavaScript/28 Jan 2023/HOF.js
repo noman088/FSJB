@@ -29,10 +29,22 @@
 // <------------------------------------------->
 
 // For each
-const arr = ["hey", "hii", "hola", "Namaste"];
+// const arr = ["hey", "hii", "hola", "Namaste"];
 
-// arr.forEach()
-arr.forEach(myfunc);
-function myfunc(val) {
-  console.log(val);
-}
+// // arr.forEach()
+// arr.forEach(myfunc);
+// function myfunc(val) {
+//   console.log(val);
+// }
+
+// SetTimout
+
+// setTimeout(() => {
+//   console.log("Hello FSJS2");
+// }, 3000);
+
+// **************
+// settimeout-- HOF
+//   ()=> { }-- Callback
+// **************
+
