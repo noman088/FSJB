@@ -48,3 +48,30 @@
 //   ()=> { }-- Callback
 // **************
 
+// <-----following is the same thing ------->
+
+// function Mayur() {
+//   console.log("Hello FSJS2");
+// }
+// setTimeout(Mayur, 3000);
+
+// <---------------------------------------->
+
+// setInterval(()=>{console.log("😜");},1000)
+
+// ***CallBack***
+// ForEach
+// map
+// filter
+// reduce
+// find
+// every
+// some
+// sort
+
+// <-----Map-------->
+// const numbers = [1, 2, 3, 4, 5, 6];
+// const numSqu = numbers.map((num) => num * num);
+// console.log(numSqu);
+
+// 
