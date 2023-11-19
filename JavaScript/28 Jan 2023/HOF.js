@@ -74,4 +74,19 @@
 // const numSqu = numbers.map((num) => num * num);
 // console.log(numSqu);
 
-// 
+// <-----------Filter-------------->
+// const count = [
+//   "India",
+//   "Pakistan",
+//   "Canada",
+//   "Ireland",
+//   "Japan",
+//   "Kenya",
+//   "Finland",
+//   "Germany",
+//   "shrilanka",
+//   "Bharat",
+// ];
+// const store = count.filter((val) => val.includes("land"));
+// console.log(store);
+
