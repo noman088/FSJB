@@ -90,3 +90,15 @@
 // const store = count.filter((val) => val.includes("land"));
 // console.log(store);
 
+// <------------------Reduce--------------------->
+// Reduce takes a callback function . the call back function takes accumulator,
+//  current and optimal initital value as a parameter and returns a single value.
+//  It is  a  good practice to define an initial value for the accumulator value.
+//  If we do not specify this parameter, by default accumulator will get array first value.
+//  If our array is an empty array, then Javascript will throw an erro
+
+
+// const num = [1, 2, 3, 4, 5, 6, 7];
+// const sum = num.reduce((acc, curr) => acc + curr, 1);
+// console.log(sum);
+
