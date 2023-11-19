@@ -102,3 +102,19 @@
 // const sum = num.reduce((acc, curr) => acc + curr, 1);
 // console.log(sum);
 
+// <-----------sort----------->
+
+// const names = [
+//   "Anurag",
+//   "Anirudh",
+//   "Hitesh ",
+//   "Vyom",
+//   "Noman",
+//   "Aarif",
+//   "Mister",
+//   "Pawan",
+// ];
+// console.log(names.sort()); // to sort all names by alphabetically
+
+// console.log(names.reverse());// Reverse names by alphabetically
+
