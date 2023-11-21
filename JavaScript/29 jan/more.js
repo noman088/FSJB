@@ -47,9 +47,17 @@ try {
 } catch (err) {
   console.log("variable name missing");
 } finally {
-    console.log("I will run ");
+  console.log("I will run ");
 }
 
-// throw=> Explore this topic 
+// throw=> Explore this topic
 
 // Different type of error we have in Javascript
+/*
+
+-Reference Error
+-Syntax error
+-TypeError8
+
+*/
+
