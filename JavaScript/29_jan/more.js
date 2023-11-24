@@ -1,7 +1,7 @@
 // HOF and Callback
-// Rst and spread
+// Rest and spread
 // try and Catch
-//  Promises and  at the end  a small MCQ's Games
+// Promises and  at the end  a small MCQ's Games
 
 // Spread and rest ...
 // function sumone(x, y) {
