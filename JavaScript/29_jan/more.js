@@ -90,27 +90,27 @@
 // userThree();
 
 //     ....... Promise........
-const one = () => {
-  return "Index page";
-};
-const two = () => {
-  return new Promise((resolve, reject) => {
-    setTimeout(() => {
-      resolve("Credential Correct   ");
-    }, 3000);
-  });
-};
-const three = () => {
-  return "redirect to home page";
-};
+// const one = () => {
+//   return "Index page";
+// };
+// const two = () => {
+//   return new Promise((resolve, reject) => {
+//     setTimeout(() => {
+//       resolve("Credential Correct   ");
+//     }, 3000);
+//   });
+// };
+// const three = () => {
+//   return "redirect to home page";
+// };
 
-const callMe = async () => {
-  let valOne = one();
-  console.log(valOne);
-  let ValTwo = await two();
-  console.log(ValTwo);
-  let ValThree = three();
-  console.log(ValThree);
-};
+// const callMe = async () => {
+//   let valOne = one();
+//   console.log(valOne);
+//   let ValTwo = await two();
+//   console.log(ValTwo);
+//   let ValThree = three();
+//   console.log(ValThree);
+// };
 
-callMe();
+// callMe();
