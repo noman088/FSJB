@@ -18,4 +18,4 @@
 // const num1 = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 // const sum = num1.reduce((acc, curr) => acc + curr, 0);
 // console.log("Sum Of All Element is ", sum);
-// Hello 
+// Hello how r u
