@@ -5,6 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>React</title>
+    <style>
+        .header {
+            color: purple;
+            border: 2px solid red;
+        }
+    </style>
 </head>
 
 <body>
@@ -12,7 +18,57 @@
     <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
     <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-    <script type="text/babel"></script>
+    <script type="text/babel">
+        const rootElement = document.querySelector(".root");
+        // const element = (
+        //     <header>
+        //         <h1>Hello, Welcome back React </h1>
+        //         <p>Welcome to React CDN</p>
+        //     </header>);
+
+        // const csss = { border: "2px solid pink", background: "yellow" }
+        const Header = (
+            // <header style={{ border: "2px solid black", color: "red" }}>
+            <header className="header">
+                <h1>Hello, Wecome BACK REACT </h1>
+                <p>Welcome to React CDN</p>
+            </header>
+        );
+        const Main = (
+            // <main style={csss}>
+            <main>
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, recusandae.</p>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, iste.</p>
+            </main>
+
+        );
+        const Footer = (
+            <footer>
+                <p>Copyright @ 2023</p>
+            </footer>
+        );
+        //To include JSX Element / Javascript Expression inside another Element we use {} 
+        const app = (
+            <>
+                {header}{main}{footer}
+
+            </>);
+
+
+        // <----what does Reusable code means---->
+        // const app = (
+        //     <>
+        //         {header}{main}{main}{main}{main}{main}{footer}
+
+        //     </>);
+
+
+        ReactDOM.render(app, rootElement);
+        // ReactDOM.render(what, where);
+
+
+    </script>
+
 </body>
 
 </html>
